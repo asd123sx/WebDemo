@@ -1,7 +1,7 @@
 $(function(){
     var menuBar = $('<div class="menuBar"></div>')
     $("body").prepend(menuBar);
-    $(menuBar).append($('<img class="title" src="../img/title.png"></img>'))
+    $(menuBar).append($('<img class="title" src="./img/title.png"></img>'))
     var title = ["首页","栽培技术","药用价值","相关知识","新鲜橙子","留言板"];
     var titleClass = ["top","menu1","menu2","menu3","menu4","menu5"];
     for(var i =0;i<6;i++){
