@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(250,248,235);
+}
+/* 导航栏 */
+.menuBar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: .9375rem;
+    padding: 0;
+    background-color: #000;
+    opacity: 0.7;
+    z-index: 9999;
+}
+
+.title {
+    position: absolute;
+    user-select: none;
+    top: 0;
+    height: .9375rem;
+}
+/* 导航栏按钮 */
+.menu{
+    position: relative;
+    top: 0rem;
+    left: 40%;
+    float: left;
+    width: 1.375rem;
+    height: .9375rem;
+    margin: 0rem .375rem 0rem .3125rem;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    transition:.35s;
+}
+/* 导航栏动画效果 */
+.menu:hover{
+    background-color: rgb(34,23,43);
+    border-top:.0625rem #fff solid;
+    top: .0625rem;
+    height: .8125rem;
+}
+
+/* 导航栏标签 */
+.textLabel{
+    user-select: none;
+    text-align: center;
+    line-height: .9375rem;
+}
+
+/* 页脚 */
+.foot{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    background-color:rgb(56,51,45);
+
+}
+.foot-text{
+    user-select: none;
+    font-size: .225rem;
+    font-family: '微软雅黑';
+    color: rgb(132,128,101);
+}
+
+/* 限制屏幕最大/最小宽度 */
+
+@media screen and (max-width: 1024px) {
+    html {
+        font-size: 52.125px !important;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    html {
+        font-size: 80px !important;
+    }
+}
