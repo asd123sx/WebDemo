@@ -1,0 +1,8 @@
+.box{
+    border-radius: .1875rem;
+    background-color: rgba(20,20,20,.7);
+    backdrop-filter: blur(.125rem);
+}
+span{
+    color: #fff;
+}
