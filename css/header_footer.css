@@ -64,17 +64,3 @@ body{
     font-family: '微软雅黑';
     color: rgb(132,128,101);
 }
-
-/* 限制屏幕最大/最小宽度 */
-
-@media screen and (max-width: 1024px) {
-    html {
-        font-size: 52.125px !important;
-    }
-}
-
-@media screen and (min-width: 1920px) {
-    html {
-        font-size: 80px !important;
-    }
-}
